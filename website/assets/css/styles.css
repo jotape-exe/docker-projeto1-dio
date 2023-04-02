@@ -1,0 +1,441 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/*CSS icones do google*/
+.material-symbols-outlined {
+  color: #000000;
+}
+
+/*Header e Menu*/
+header{
+  height: 12.8vh;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4272a0;
+  position: fixed;
+  width: 100vw;
+}
+
+.nav-menu{
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.sections-item-format {
+  margin: 1rem;
+  border-radius: 1rem;
+  padding: 1.6rem;
+  width: 40vw;
+  height: 80vh;
+}
+
+.lista-head {
+  width: 40vw;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.905rem;
+  width: 13vw;
+  border: none;
+  padding: 1rem;
+  background-color: transparent;
+}
+
+.item-head:hover {
+  cursor: pointer;
+  border-bottom: #fff 1px solid;
+}
+
+.item-head a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo-img {
+  height: 60px;
+  width: 60px;
+}
+
+.menu-btn{
+  display: none;
+}
+
+/*Informações Pesoais*/
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 12vh;
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.personal-content {
+  background-color: #fff;
+}
+
+.personal-info {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2rem;
+  text-align: center;
+  border: .1rem solid #c2c2c2
+}
+
+.img-main{
+  width: 10vw;
+  height: 10vw;
+}
+
+.personal-info p {
+  margin: 1rem;
+}
+
+.personal-info:hover {
+  box-shadow: 0 0 9px 9px #81818121;
+}
+
+/*Seção de Hobbies*/
+.personal-hobbies {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  text-align: center;
+  border: .1rem solid #c2c2c2
+}
+
+.personal-hobbies:hover {
+  box-shadow: 0 0 9px 9px #81818121;
+}
+
+.personal-hobbies h2 {
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  width: 100%;
+  border-bottom: 2px solid #c7c7c7;
+}
+
+.list-hobbies {
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 1rem;
+}
+
+.list-hobbies li {
+  padding: 1rem;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 1rem;
+  width: 100%;
+  text-align: start;
+}
+
+.list-hobbies li:hover {
+  background-color: #00000010;
+}
+
+.list-hobbies li span {
+  margin: 0 1vw 0 1vw;
+}
+
+/*Informções tecnicas*/
+
+.about-me {
+  background-color: #f5f5f5;
+  height: 74vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  height: 53vh;
+}
+
+.tech-content h2 {
+  text-align: center;
+  width: 100%;
+  border-bottom: 2px solid #fff;
+  padding: 0.6rem;
+}
+
+.list-tech-content {
+  font-size: 1.2rem;
+  width: 100%;
+  height: 90%;
+  padding: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  list-style: none;
+}
+
+.item-tech-content {
+  color: #fff;
+  padding: 0.7rem;
+  border-radius: 1rem;
+}
+
+.item-tech-content i {
+  margin: 0 1vw 0 1vw;
+}
+
+.front {
+  background-color: #30708a;
+}
+
+.back {
+  background-color: #5297b3;
+}
+
+.other {
+  background-color: #5290a8;
+}
+
+.front .item-tech-content:hover {
+  background-color: #0b224d28;
+}
+
+.back .item-tech-content:hover {
+  background-color: #156c8f44;
+}
+
+.other .item-tech-content:hover {
+  background-color: #39658f2c;
+}
+
+/*Projetos Pessoais*/
+
+.projects {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.projects-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 90vw;
+  height: 80vh;
+  background-color: #fff;
+  margin: 1rem;
+  border-radius: 1rem;
+  padding: 1.6rem;
+  border: 0.1rem solid #dddddd;
+}
+
+.projects-content h2 {
+  padding: 0.7rem;
+  width: 100%;
+  border-bottom: #d6d6d6 1px solid;
+}
+
+.project-img {
+  max-width: 80%;
+  width: auto;
+  max-height: 80%;
+}
+
+.project-img:hover {
+  cursor: pointer;
+}
+
+/*Ajustes no geral para dispositivos movéis*/
+
+@media (max-width: 892px) {
+
+  .main {
+    flex-direction: column;
+    height: 125vh;
+    padding-top: 14vh;
+  }
+
+  /*Config do menu mobile*/
+  .lista-head{
+    position: absolute;
+    display: block;
+    width: 50%;
+    top: 12.802vh;
+    right: 0;
+    height: 0;
+    background-color: #4e78a0;
+    z-index: 1000;
+    transition: .6s;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+
+  .nav-menu.active .lista-head{
+    height: calc(100vh - 12.5vh);
+    visibility: visible;
+    overflow-y: auto;
+  }
+
+  .item-head{
+    width: 100%;
+  }
+
+  .item-head a:hover{
+    background-color: rgba(0, 0, 0, 0.034);
+  }
+
+  .menu-btn{
+    display: flex;
+    padding: .5rem 1rem;
+    border: none;
+    cursor: pointer;
+    background: none;
+    font-size: 1rem;
+    gap: .5rem;
+  }
+
+  .hamburger{
+    display: block;
+    width: 20px;
+    border-top: 2px solid;
+    color: #fff;
+  }
+
+  .hamburger::after, .hamburger::before{
+    margin-top: 5px;
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    transition: .3s;
+    position: relative;
+  }
+
+  .nav-menu.active .hamburger{
+      border-top-color: transparent;
+  }
+
+  .nav-menu.active .hamburger::after{
+    transform: rotate(135deg);
+  }
+
+  .nav-menu.active .hamburger::before{
+    transform: rotate(-135deg);
+    top: 7px;
+  }
+
+  .lista-head a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    font-size: .8rem;
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .personal-info {
+    width: 80%;
+    height: 52vh;
+    padding: 1rem;
+  }
+
+  .personal-hobbies {
+    width: 80%;
+  }
+
+  .about-me {
+    flex-direction: column;
+    height: 125vh;
+  }
+
+  .tech-content {
+    width: 64vw;
+    height: 40vh;
+  }
+  .projects-content{
+    font-size: .675rem;
+    height: 45vh;
+  }
+
+
+}
+
+@media (max-width: 547px) {
+  .personal-info p {
+    font-size: 0.985rem;
+  }
+
+  .list-hobbies li {
+    font-size: 0.785rem;
+  }
+
+  .personal-hobbies h2 {
+    font-size: 1.2rem;
+  }
+
+  .item-tech-content {
+    font-size: 0.985rem;
+  }
+
+  .item-tech-content i {
+    height: 1.2rem;
+  }
+
+  .tech-content h2 {
+    font-size: 1rem;
+  }
+
+  .tech-content:nth-child(3){
+    height: 30vh;
+  }
+
+  .sections-item-format {
+    padding: 0.596rem;
+  }
+
+  .list-tech-content {
+    padding: 0.596rem;
+  }
+
+  .projects-content{
+    height: 30vh;
+    text-align: center;
+    font-size: .6rem;
+  }
+}
